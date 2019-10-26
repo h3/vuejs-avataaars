@@ -16,6 +16,7 @@ Simple avatar generator Vue component for avataaars.
 
 ***[avataaars](https://avataaars.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley).***
 
+
 ## Features:
 
   - SVG images - scale without loss of quality.
@@ -28,6 +29,12 @@ Quick install with NPM:
 
 ```
 npm install vuejs-avataaars
+```
+
+Quick install with Yarn:
+
+```
+yarn add vuejs-avataaars
 ```
 
 ## Usage
@@ -62,12 +69,18 @@ export default {
 </script>
 ```
 
+
 ### Props
 
 The following props can be passed to the component:
 
-The default state is for all props is random :)
+The default state is for all props (except isCircle and circleColor) is random :)
 
+#### isCircle
+- true (default)
+- false
+#### circleColor
+- color hex (default: #6fb8e0)
 #### accessoriesType
 - Blank
 - Kurt
@@ -76,6 +89,22 @@ The default state is for all props is random :)
 - Round
 - Sunglasses
 - Wayfarers
+#### accessoriesColor
+- Black
+- Blue01
+- Blue02
+- Blue03
+- Gray01
+- Gray02
+- Heather
+- PastelBlue
+- PastelGreen
+- PastelOrange
+- PastelRed
+- PastelYellow
+- Pink
+- Red 
+- White
 #### clotheType
 - BlazerShirt
 - BlazerSweater
@@ -191,7 +220,7 @@ The default state is for all props is random :)
 - DarkBrown
 - Black
 #### topType
- - NoHair
+- NoHair
 - Eyepatch
 - Hat
 - Hijab
